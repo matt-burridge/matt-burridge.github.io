@@ -1,0 +1,6 @@
+Planning and Preamble list 
+
+Would like to have either multiple pages each leading to a miniturised website if this is possible - otherwise perhaps some use of accorion separation or modal manipluation to have the most of the screen to a feauture and some static navigation aides to move through the choices, 
+
+wanting to use the basics of web design to get up a few sections for art and drawing, photography, game design, scripting (for webcomics, games, books etc...), coding and learning programming languages, 
+and designing different websites - including starting to incorporate typescript, react etc. 
