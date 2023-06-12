@@ -1,5 +1,85 @@
 /*This file is empty right now but I could work on that one day*/
 * {
+<<<<<<< HEAD
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.toTopBtn {
+    position: fixed;
+    bottom: 5px;
+    right: 48%;
+    z-index: 26;
+    border: none;
+    outline: none;
+    background-color:firebrick;
+    color:snow;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.toTopBtn:hover {
+    background-color:gray;
+}
+
+header {
+    background-color: steelblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: auto;
+    text-align: center;
+    height: 100px;
+    justify-content: center;
+}   
+nav {
+    background-color: cadetblue;
+    overflow: hidden;
+}
+nav ul {
+    display:contents;
+    padding: 5px;
+    text-decoration: none;
+    list-style-type: none;
+    top: 50%;
+    justify-content:center;
+}
+
+nav li {
+    float:left;
+    padding: 5px;
+}
+
+nav a {
+    text-decoration: none;
+}
+nav a:hover {
+    background-color:darkblue
+}
+.active {
+    background-color: azure;
+}
+main {
+    background-color: darkorchid;
+    justify-content: center;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+}
+footer {
+    background-color:darkslategray;
+    color:antiquewhite;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    nav {
+        float: none;
+        display: block;
+    }
+}
+=======
   margin:0;
   padding:2px;
   box-sizing: border-box;
@@ -25,3 +105,4 @@ a.active {
 .navi a:hover {
  background-color: crimson; 
 }
+>>>>>>> 69920a5a2148e9b0d8124870fb9c174f3ed26da9
