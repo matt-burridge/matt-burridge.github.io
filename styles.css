@@ -28,10 +28,10 @@
 header {
     background-color: steelblue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin: auto;
     text-align: center;
-    height: 100px;
-    justify-content: center;
+    height: auto;
+    justify-content:center;
+    display:contents;
 }   
 nav {
     background-color: cadetblue;
@@ -64,7 +64,7 @@ main {
     background-color: darkorchid;
     justify-content: center;
     text-align: center;
-    width: 75%;
+    width: 80%;
     margin: auto;
 }
 footer {
