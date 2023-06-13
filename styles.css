@@ -1,6 +1,6 @@
 /*This file is empty right now but I could work on that one day*/
 * {
-<<<<<<< HEAD
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -79,30 +79,3 @@ footer {
         display: block;
     }
 }
-=======
-  margin:0;
-  padding:2px;
-  box-sizing: border-box;
-}
-
-.navi {
-width: 100%;
-background-color: azure;
-overflow: auto;
-}
-
-.navi a {
-  float: left;
-  padding: 15px;
-  color: pink;
-  text-align: center;
-}
-
-a.active {
- background-color: gold; 
-}
-
-.navi a:hover {
- background-color: crimson; 
-}
->>>>>>> 69920a5a2148e9b0d8124870fb9c174f3ed26da9
