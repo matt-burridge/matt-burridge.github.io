@@ -9,12 +9,11 @@
 .toTopBtn {
     position: fixed;
     bottom: 5px;
-    right: 48%;
-    z-index: 26;
+    right: 95%;
+    z-index: 99;
     border: none;
     outline: none;
     background-color:firebrick;
-    color:snow;
     cursor: pointer;
     padding: 5px;
     border-radius: 8px;
@@ -61,7 +60,7 @@ nav a:hover {
     background-color: azure;
 }
 main {
-    background-color: darkorchid;
+    background-color:lightslategray;
     justify-content: center;
     text-align: center;
     width: 80%;
@@ -73,9 +72,133 @@ footer {
     text-align: center;
 }
 
-@media screen and (max-width: 500px) {
+.photo {
+    border: 2px solid white;
+    margin: 3px; 
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.photo:hover {box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+/* modal bits*/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: none;
+    background-color: rgb(2,2,2);
+    background-color: rgba(2,2,2,0.9);
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f5f5f5;
+    font-size: 50px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.close:hover, .close:focus {
+    color: #ccc;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.mattSlides {
+    display: none;
+}
+
+.prev {
+    cursor: pointer;
+    position:fixed;
+    top: 50%;
+    left: 0;
+    width: auto;
+    padding: 15px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 0 3px 3px 0;
+
+}
+.caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+    height: 30px;
+}
+
+.next {
+    cursor: pointer;
+    position:fixed;
+    top: 50%;
+    right: 0;
+    width: auto;
+    padding: 15px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 0 3px 3px 0;
+
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.7);
+}
+
+.row {
+    margin: 8px -8px;
+}
+
+.row,
+.row > .col {
+    padding: 4px;
+}
+
+.col {
+    float: left;
+width: 33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+@media screen and (max-width: 900px) {
+
+    .col{
+         width: 50%;
+    }
+}
+@media screen and (max-width: 600px) {
     nav {
         float: none;
         display: block;
+    }
+
+    .col {
+        width: 100%;
     }
 }
